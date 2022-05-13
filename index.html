@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="/Images/logo-kemenkes.png">
+    <title>Sign In SIKEMA</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-3 rounded">
+            <a class="navbar-brand" href="#">
+                <img src="/Images/logo-kemenkes.png" style="width: 30px;" alt="logo-kemenkes"> SIKEMA
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Sign In<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/Pages/signup.html">Sign Up</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container my-2">
+        <div class="container my-5">
+            <div id="login-row" class="row justify-content-center align-items-center bg-p">
+                <div id="login-column" class="col-md-6 bg-primary rounded">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form mt-3" action="" method="post">
+                            <img class="rounded mx-auto d-block w-25" src="/Images/logo-kemenkes.png" alt="Logo Kesehatan">
+                            <h1 class="text-center text-light">Sign In</h1>
+                            <hr class="bg-light input-group">
+                            <div class="form-group mx-3">
+                                <label for="username" class="text-light">Username</label><br>
+                                <input type="text" name="username" id="username" class="form-control" placeholder="Masukkan Username">
+                            </div>
+                            <div class="form-group mx-3">
+                                <label for="password" class="text-light">Password</label><br>
+                                <input type="password" name="password" id="password" class="form-control" placeholder="Masukkan Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="remember-me" class="text-light mx-3"><span>Remember Me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                <a class="nav-link" href="/Pages/homepage.html">
+                                    <button class="btn btn-outline-light btn-lg btn-block" type="button" name="submit">Sign In</button>
+                                </a>
+                            </div>
+                            <div class="form-group">
+                                <p class="text-center text-light">OR Sign In With</p>
+                            </div>
+                            <div class="form-group">
+                                <a class="nav-link" href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fhl%3Den&ss=1&scc=1&ltmpl=default&ltmplcache=2&hl=en&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                                    <button type="button" class="btn btn-light btn-lg btn-block">
+                                        <img class="rounded" style="width: 50px;"src="/Images/gmail-logo.png" alt="gmail">
+                                    </button>
+                                </a>
+                                <a class="nav-link" href="https://login.yahoo.com/?.src=ym&pspid=159600001&activity=mail-direct&.lang=id-ID&.intl=id&.done=https%3A%2F%2Fid.mail.yahoo.com%2Fd">
+                                    <button type="button" class="btn btn-light btn-lg btn-block">
+                                        <img class="rounded" style="width: 50px;"src="/Images/yahoo.png" alt="yahoo">
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="form-group">
+                                <p class="text-light mx-3">Don't have an account? <a href="/Pages/signup.html" class="badge badge-light">Sign Up</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
